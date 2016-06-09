@@ -1,0 +1,19 @@
+server { 
+    listen 80 default_server; 
+    root /usr/share/nginx/html; 
+    index index.html index.htm index.php; 
+    server_name localhost; 
+    # include /etc/nginx/thecustomizewindows/w3tc.conf; 
+    location / { 
+        try_files $uri $uri/ /index.php$is_args$args; 
+    } 
+    location ~ \.php$ { 
+        include snippets/fastcgi-php.conf; 
+        fastcgi_pass unix:/run/php/php7.0-fpm.sock; 
+        include fastcgi_params; 
+ 
+
+    } 
+ 
+
+}
