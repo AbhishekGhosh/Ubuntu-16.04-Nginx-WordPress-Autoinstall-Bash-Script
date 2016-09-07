@@ -80,6 +80,7 @@ config_web()
   echo "Restarting Nginx, PHP-FPM and MySQL."
   sudo systemctl restart php7.0-fpm
   service nginx restart
+## bug reported 
   service mysql restart
 }
 
