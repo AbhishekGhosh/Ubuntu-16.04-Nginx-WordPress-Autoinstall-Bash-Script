@@ -49,7 +49,9 @@ install_pkg()
   aptitude update
   aptitude -y safe-upgrade
   aptitude -y full-upgrade
-  aptitude -y install percona-server-5.7
+  # aptitude -y install percona-server-5.7
+  aptitude -y install mariadb-server mariadb-client
+  # switched to mariadb
   mysql_secure_installation
   echo "Installing Nginx-Extras webserver"
   sleep 1
