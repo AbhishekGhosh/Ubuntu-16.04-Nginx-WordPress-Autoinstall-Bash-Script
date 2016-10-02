@@ -25,7 +25,7 @@ install_pkg()
   aptitude -y full-upgrade
   echo "Installing PHP 7.0 packages."
   sleep 1
-  aptitude -y install screen build-essential libcurl3 libmcrypt4 libmemcached11 libxmlrpc-epi0 php7.0-cli php7.0-common php7.0-curl php7.0-fpm php7.0-gd php7.0-intl php7.0-json php7.0-mbstring php7.0-mcrypt php7.0-mysql php7.0-opcache php7.0-readline php7.0-xml php7.0-xmlrpc psmisc libmcrypt-dev mcrypt php-pear php-mysql php-mbstring php-mcrypt php-xml php-intl libmhash2 php-common
+  aptitude -y install pwgen screen build-essential libcurl3 libmcrypt4 libmemcached11 libxmlrpc-epi0 php7.0-cli php7.0-common php7.0-curl php7.0-fpm php7.0-gd php7.0-intl php7.0-json php7.0-mbstring php7.0-mcrypt php7.0-mysql php7.0-opcache php7.0-readline php7.0-xml php7.0-xmlrpc psmisc libmcrypt-dev mcrypt php-pear php-mysql php-mbstring php-mcrypt php-xml php-intl libmhash2 php-common
   echo "Installing memcached (not php-memcached).Memchaed will be available at Port 11211 of IP 127.0.0.1 (localhost)."
   echo "Memchaed will be available at Port 11211 of IP 127.0.0.1 (localhost)."
   sleep 1
