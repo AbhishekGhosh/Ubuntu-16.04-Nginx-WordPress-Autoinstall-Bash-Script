@@ -118,6 +118,7 @@ create_site()
     sudo chmod -R g+w /usr/share/nginx/html/wp-content/themes 
     sudo chmod -R g+w /usr/share/nginx/html/wp-content/plugins
     echo "done."
+    # where from fi came?
   fi
 }
 
