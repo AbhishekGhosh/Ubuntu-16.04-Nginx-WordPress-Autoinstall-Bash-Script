@@ -2,6 +2,8 @@
 
 Sexy script to automate installation in KISS (Keep it simple stupid) principle. It is in beta, no warrenty for prouction.
 
+IMORTANT : Outdated. Use this -- https://github.com/AbhishekGhosh/Ubuntu-18.04-WordPress-Autoinstall-Bash-Script
+
 ## I found a bug and fix
 
 Send a pull request.
